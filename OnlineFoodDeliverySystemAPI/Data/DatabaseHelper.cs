@@ -5,7 +5,7 @@ namespace OnlineFoodDeliverySystemAPI.Data
 {
     public class DatabaseHelper
     {
-        private readonly string _ConnectionString;
+        public readonly string _ConnectionString;
         public DatabaseHelper(string connectionString)
         {
             _ConnectionString = connectionString;
@@ -25,6 +25,7 @@ namespace OnlineFoodDeliverySystemAPI.Data
                 }
             }
         }
+
     }
 }
 
