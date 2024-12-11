@@ -25,7 +25,7 @@ namespace OnlineFoodDeliverySystemAPI.Controllers
             try
             {
                 DataTable result = _databaseHelper.ExecuteQuery(query);
-                return Ok(result); // DataTable will serialize automatically.
+                return Ok(result);
             }
             catch (Exception ex)
             {
